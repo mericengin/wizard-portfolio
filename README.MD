@@ -52,9 +52,9 @@ Because this project uses ES Modules and external assets, you cannot simply doub
 ```text
 /wizard-portfolio
 ├── assets/
-│   └── wizard-final.png  # Character Sprite
+│   └── wizard-final.png    # Character Sprite
+    └── music.mp3   # Background track  
+    └── resume.pdf  # Static CV file
 ├── index.html            # Main entry point & UI
 ├── style.css             # Styling for the "Terminal" pop-ups
-├── game.js               # Game logic, NPC behavior, and Data
-├── music.mp3             # Background track
-└── resume.pdf            # Static CV file
+├── game.js               # Game logic, NPC behavior, and Data           
