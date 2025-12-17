@@ -152,8 +152,12 @@ scene("main", () => {
 
     // ORB 1: WORK (Red/Pink)
     const workHTML = `
+        <strong>Technology Intern @ Mars Athletic Club</strong><br>
+        <em>May 2024 - September 2025 | Istanbul</em>
+        <hr>
+        <br>
         <strong>Software Developer @ Mars Athletic Club</strong><br>
-        <em>May 2024 - Oct 2025 | Istanbul</em>
+        <em>September 2024 - Oct 2025 | Istanbul</em>
         <ul>
             <li>Built AI solutions: RAG-driven chatbots, Custom GPTs & Copilot Studio bots.</li>
             <li>Developed scalable apps using <strong>Angular, TypeScript, Node.JS, FastAPI And Bootstrap</strong>.</li>
@@ -161,8 +165,8 @@ scene("main", () => {
         </ul>
         <hr>
         <br>
-        <strong>AI Research Intern @ Koç University</strong><br>
-        <em>April 2025 - Present</em>
+        <strong>Research Intern @ Koç University</strong><br>
+        <em>April 2025 - Present | Remote</em>
         <ul>
             <li>Defining syntactic structures for low-resource languages.</li>
             <li>Creating datasets for LLMs to solve Linguistic Olympiad problems.</li>
@@ -184,12 +188,12 @@ scene("main", () => {
 
     // ORB 3: SKILLS (Green)
     const skillsHTML = `
-        <strong>Languages:</strong><br> German, English, Turkish<br><br>
+        <strong>Languages:</strong><br><br> German (C1), English (C2), Turkish (Native)<br><br>
         <strong>Tech Stack:</strong>
         <ul>
             <li><strong>Web:</strong> Angular, React, TypeScript, Node.js, FastAPI</li>
             <li><strong>AI/Data:</strong> Python, PyTorch, spaCy, NLTK, Pandas, NumPy, Scikit-learn</li>
-            <li><strong>Concepts:</strong> NLP, RAG, Machine Learning, Deep Learning, Web Development</li>
+            <li><strong>Concepts:</strong> NLP, RAG, Machine Learning, Deep Learning, Web/App Development</li>
         </ul>
     `;
     createOrb(0, -200, [0, 255, 100], "Skills", skillsHTML);
@@ -199,7 +203,11 @@ scene("main", () => {
         <strong>Let's Connect!</strong><br><br>
         📧 <a href="mailto:kayamericengin@gmail.com">kayamericengin@gmail.com</a><br>
         📍 Stuttgart, Germany<br>
-        📱 +49 0172 848 97 47
+        📱 +49 0172 848 97 47<br>
+        <br>
+        <strong><a href="https://www.linkedin.com/in/kaya-meric-engin/">LinkedIn</a></strong<br>
+        <br>
+        <strong><a href="https://github.com/mericengin">GitHub</a></strong
     `;
     createOrb(0, 200, [255, 200, 0], "Contact", contactHTML);
 
